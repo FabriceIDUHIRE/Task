@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <!-- Link to the main CSS file -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- End of CSS link -->
+</head>
+<body>
+    <!-- Container for photo cards -->
+    <div class="photo-gallery-container">
+        <!-- Card for the FENNEC FOX image -->
+        <div class="photo-card">
+            <img id="img1" src="images/photo1.jpg" alt="Spotted Deer">
+            <div class="card-Details">
+                <h2>FENNEC<br>FOX</h2><br>
+                <p>India</p>
+                <a href="#" class="info-link">Know more ➜</a>
+            </div>
+        </div>
+        <!-- Card for the HUMPBACK WHALE image -->
+        <div class="photo-card">
+            <img id="img2" src="images/photo2.jpg" alt="Common Brown Baboon">
+            <div class="card-Details">
+                <h2>HUMPBACK<br>WHALE</h2><br>
+                <p>South Africa</p>
+                <a href="#" class="info-link">Know more ➜</a>
+            </div>
+        </div>
+        <!-- Card COMMON BROWN BABOON image -->
+        <div class="photo-card">
+            <img id="img3" src="images/photo3.jpg" alt="Humpback Whale">
+            <div class="card-Details">
+                <h2>COMMON BROWN<br> BABOON</h2><br>
+                
+                <p>South Africa</p>
+                <a href="#" class="info-link">Know more ➜</a>
+            </div>
+        </div>
+        <!-- Card for SPOTTED DEER image -->
+        <div class="photo-card">
+            <img id="img4" src="images/photo4.jpg" alt="Fennec Fox">
+            <div class="card-Details">
+                <h2>SPOTTED <br>DEER</h2><br>
+                <p>Amazon</p>
+                <a href="#" class="info-link">Know more ➜</a>
+            </div>
+            <!-- End of card image -->
+        </div>
+    </div>
+
+    <!-- Modal for displaying full-size image -->
+    <div id="myModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img id="modalImg" class="modal-content" src="" alt="Modal Image">
+        <div id="caption"></div>
+        <a href="#" class="modal-prev" id="prev">&#10094;</a>
+        <a href="#" class="modal-next" id="next">&#10095;</a>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="scripts/script.js"></script>
+    <!-- End of JavaScript link -->
+</body>
+</html>
